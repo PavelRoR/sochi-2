@@ -1,7 +1,7 @@
 -var path = '';
--var head_url = 'https://sochi3.mycapitalland.ru/';
--var head_title = '«Пассивный доход на инвестициях в недвижимость Сочи – это просто!»';
--var head_description = 'Секреты прибыльных инвестиций от My Capital';
+-var head_url = 'https://sochi2.mycapitalland.ru/';
+-var head_title = '«Доходная недвижимость в Сочи»';
+-var head_description = 'Инвестиции, с которыми не прогадаешь!';
 -var styles = path+'css/styles.min.css';
 -var fav_ico = path+'favicon.ico';
 -var fav_png = path+'favicon.png';
@@ -13,8 +13,7 @@
 //-var index1 = true;
 
 mixin gt(cl,h3)
-	h3.general-title(class=cl)
-		span=h3
+	h3.general-title(class=cl)=h3
 mixin b(cl,clb,href='#Modal',p,target,id)
 	.button-wrapper(class=cl)
 		a.button(class=clb href=href target=target id=id)=p
@@ -30,8 +29,13 @@ html(lang="ru")
 		include pug/scripts/body_top_scripts
 		.wrapper
 			include pug/main/1-main
-			include pug/main/2-about
-			include pug/main/3-strategy
-			include pug/main/4-we
+			include pug/main/2-hype
+			include pug/main/3-about
+			include pug/main/4-project
+			include pug/main/5-buttons
+			include pug/main/6-numbers
+			include pug/main/7-request
+			include pug/main/8-team
+		include pug/base/2-footer
 		include pug/base/3-scripts
 		include pug/scripts/body_bottom_scripts
