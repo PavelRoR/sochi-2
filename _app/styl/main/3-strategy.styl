@@ -1,0 +1,133 @@
+#strategy
+	padding 90px 0 155px
+	position relative
+	background-color: #B4E1F1
+	background-image: url(../img/backs/strategy.png)
+	background-repeat no-repeat
+	background-position: center top
+	background-size: cover
+	@media screen and (max-width 560px)
+		padding 60px 0
+		overflow hidden
+	@media screen and (max-width 385px)
+		padding 40px 0
+.strategy
+	&-img
+		position absolute
+		bottom -155px
+		right -350px
+		z-index 0
+	&-title
+		font-size: 40px
+		font-weight: 900
+		text-align center
+		small
+			display block
+			font-size: 18px
+			font-weight: bold
+			text-transform uppercase
+		@media screen and (max-width 560px)
+			font-size: 32px
+			line-height: 1.2
+			small
+				margin-top: 10px
+		@media screen and (max-width 385px)
+			font-size: 26px
+			small
+				font-size: 16px
+	&-subtitle
+		font-size: 25px
+		font-weight: bold
+		margin 40px 0
+		text-align center
+		@media screen and (max-width 560px)
+			font-size: 22px
+			margin 30px 0
+		@media screen and (max-width 385px)
+			margin: 20px 0
+.strategy-item
+	border-radius: 40px;
+	box-shadow: 0px 0px 47.79px 11.21px rgba(0, 0, 0, 0.06);
+	padding 20px 15px
+	background-color: rgba(#fff, .8)
+	text-align center
+	width 19%
+	float: left
+	margin-right: 14px
+	min-height 219px
+	position relative
+	z-index 20
+	&&-5
+		margin-right: 0
+	&-img
+		width auto
+		display inline-block
+		margin-bottom: 20px
+	@media screen and (max-width 1199px)
+		margin-right: 12px
+	@media screen and (max-width 991px)
+		float: none
+		width 100%
+		max-width 250px
+		margin 0 auto 30px
+		&&-5
+			margin 0 auto 30px
+	@media screen and (max-width 560px)
+		border-radius: 20px
+		padding 20px
+		margin-bottom: 20px
+		min-height 150px
+.strategy-info
+	position relative
+	border-radius: 40px;
+	box-shadow: 0px 0px 47.79px 11.21px rgba(0, 0, 0, 0.06);
+	background-color: rgba(#fff, .8)
+	width 100%
+	max-width 600px
+	margin-top: 45px
+	padding 25px 35px 100px
+	&-icon
+		position absolute
+		top 50px
+		right -15px
+	&-text
+		font-size: 16px
+		margin-bottom: 25px
+		&-bold
+			font-size: 20px
+			font-weight: bold
+	&-attantion
+		color #fff
+		text-transform uppercase
+		font-size: 20px
+		font-weight: bold
+		background-color: #0f1f2f
+		border-radius: 55px
+		padding 15px 35px
+		position absolute
+		bottom -20px
+		left 0
+		width 110%
+	@media screen and (max-width 991px)
+		margin 45px auto 0
+		&-attantion
+			left -5%
+	@media screen and (max-width 560px)
+		border-radius: 20px
+		padding 20px 25px 120px
+		text-align center
+		&-attantion
+			font-size: 18px
+			padding 15px 20px
+			border-radius: 25px
+			width 100%
+			left 0
+			// bottom -60px
+		&-icon
+			top auto
+			bottom 100px
+	@media screen and (max-width 385px)
+		&-attantion
+			font-size: 16px
+			padding 10px
+			bottom -20px

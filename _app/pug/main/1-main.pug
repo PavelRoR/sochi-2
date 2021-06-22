@@ -1,0 +1,31 @@
+section#main
+	include ../base/1-header
+	.container.container-main
+		.row
+			.col-md-8
+				h1.main-title Пассивный доход 
+					br
+					| на инвестициях в недвижимость Сочи – это просто!
+				h2.main-subtitle Мы уже научились! 
+					br
+					| Научим и вас!
+		.row
+			.col-md-4
+				.main-info-item.main-info-item-1
+					+imgs('main-info-item-img main-info-item-img-1', 'img/images/money-1.png', 'Деньги')
+					p.main-info-item-text Доходность 
+						br
+						| – до 153% за год!
+					p.main-info-item-text Минимальная сумма вложений – 500 тыс. руб.
+			.col-md-4
+				.main-info-item.main-info-item-2
+					p.main-info-item-text Все секреты прибыльных инвестиций – в одном месте!
+					p.main-info-item-text Возьмите лучший опыт профессионалов
+			.col-md-4
+				.main-info-item.main-info-item-3
+					+imgs('main-info-item-img main-info-item-img-3', 'img/images/money-3.png', 'Деньги')
+					p.main-info-item-text Подпишитесь на закрытый Telegram-бот
+					.button-wrapper.button-wrapper-main
+						a.button.button-main(href='https://t.me/MyCapital_Sochi_bot') 
+							img(src=path+'img/icons/tg-main.png' alt='Telegram')
+							| ПОДПИСАТЬСЯ

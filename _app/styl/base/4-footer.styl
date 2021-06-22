@@ -1,0 +1,38 @@
+footer
+	padding 20px 0
+	font-family: M
+	font-size: 12px
+	font-weight: 300
+	text-transform uppercase
+	color #fff
+	.&-text
+		margin-bottom: 10px
+		&-linked
+			display inline-block
+			@media screen and (max-width 991px)
+				display block
+		&:last-child
+			margin-bottom: 0
+		a
+			display inline-block
+			color #fff
+			text-decoration none
+			margin-right: 10px
+			@media screen and (max-width 991px)
+				margin-right: 0
+			&:focus
+				text-decoration none
+				color #fff
+			&:hover
+				text-decoration underline
+				color #fff
+		&&-politics
+			display block
+			text-align right
+			a
+				margin-right: 0
+			@media screen and (max-width 991px)
+				text-align center
+				margin-top: 10px
+	@media screen and (max-width 991px)
+		text-align center
