@@ -9,6 +9,10 @@
 	text-align center
 	.container
 		position relative
+	@media screen and (max-width 991px)
+		padding 60px 0
+	@media screen and (max-width 560px)
+		padding 40px 0
 .hype-img
 	position absolute
 	right -135px
@@ -19,11 +23,19 @@
 		font-weight: 900
 		text-align center
 		margin-bottom: 40px
+		@media screen and (max-width 991px)
+			font-size: 36px
+			br
+				display none
+		@media screen and (max-width 560px)
+			font-size: 26px
+			margin-bottom: 30px
+		
 	&-item
 		border-radius: 8px;
 		box-shadow: 0px 1px 53.1px 5.9px rgba(0, 0, 0, 0.23);
 		width 100%
-		max-width: 383px;
+		max-width: 436px;
 		padding 25px
 		background-color #fff
 		position relative
@@ -35,14 +47,29 @@
 			font-size: 40px
 			font-weight: 100
 			opacity .6
+			@media screen and (max-width 1199px)
+				top 0
+				left 15px
 		&-img
 			display block
 			margin 0 auto 25px
+			@media screen and (max-width 386px)
+				max-width 100px
+				margin 0 auto 10px
 		&-text
-			height 190px
+			min-height 190px
 			display flex
 			align-items: center;
 			justify-content: center;
+			@media screen and (min-width 2295px)
+				min-height 210px
+			@media screen and (max-width 1199px)
+				min-height 243px
+			@media screen and (max-width 991px)
+				min-height 1px
+				display block
+				br
+					display none
 	&-lasttitle
 		display inline-block
 		padding 20px 50px
@@ -57,3 +84,12 @@
 		background-size: 100% 100%
 		position relative
 		z-index 10
+		@media screen and (max-width 560px)
+			font-size: 20px
+		@media screen and (max-width 386px)
+			background-image none
+			border-radius: 30px 8px
+			padding 15px
+			background-color: #3F9A06
+			margin-top 0
+			font-size: 16px
