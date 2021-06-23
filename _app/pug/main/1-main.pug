@@ -1,15 +1,19 @@
 section#main
 	include ../base/1-header
-	.container.container-main
-		.row
-			.col-md-8
-				h1.main-title Доходная недвижимость в Сочи
-				h2.main-subtitle 
-					+imgs('', 'img/images/target.png', 'Мишень')
-					span Точное попадание в цель!
-				p.main-text Вкладывайте от 500 тыс. руб. – получайте прибыль до 32% за год!
-				p.main-text Инвестиции, с которыми не прогадаешь!
-				+b('', '', '', 'Оставить заявку')
-				h3.main-lasttitle
-					+imgs('', 'img/images/glasses.png', 'Очки')
-					span Зарабатывайте с нами, создавая шедевры жилой архитектуры в одном из лучших уголков  России!
+	+imgs('clouds-main', 'img/images/clouds.png', 'Облака')
+	.container
+		.content
+			.row
+				.col-md-6
+					h1.main-title Доходная недвижимость в Сочи
+					h2.main-subtitle 
+						+imgs('', 'img/images/target.png', 'Мишень')
+						span Точное попадание в цель!
+					p.main-text Вкладывайте от 500 тыс. руб. 
+						br
+						| – получайте прибыль до 32% за год!
+					p.main-text Инвестиции, с которыми не прогадаешь!
+					+b('', '', 'https://forms.amocrm.ru/zmzzwl', 'Оставить заявку')
+					h3.main-lasttitle
+						+imgs('', 'img/images/glasses.png', 'Очки')
+						span Зарабатывайте с нами, создавая шедевры жилой архитектуры в одном из лучших уголков  России!

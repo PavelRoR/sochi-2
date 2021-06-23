@@ -1,0 +1,88 @@
+#team
+	padding 340px 0 90px
+	background-image: url(../img/backs/team-clouds.png), url(../img/backs/team.png)
+	background-repeat no-repeat, no-repeat
+	background-position: center, center bottom
+	background-size: contain, contain
+.team-title
+	text-align center
+	font-size: 45px
+	font-weight: 900
+	margin-bottom: 45px
+.general-wrapper-member
+	padding 250px 25px 25px
+	width 100%
+	max-width: 384px;
+	margin 110px auto 0
+.member
+	position relative
+	&-1
+		&:before
+			content: ''
+			display block
+			position absolute
+			width 253px
+			height 155px
+			background-color: #000
+			border-radius: 8px
+			top -70px
+			left -100px
+	&-3
+		&:before
+			content: ''
+			display block
+			position absolute
+			width 475px
+			height 282px
+			background-color: #000
+			border-radius: 8px
+			right -200px
+			bottom -10px
+	&-img
+		display block
+		position absolute
+		top -110px
+		left 0
+		right 0
+		width 100%
+		max-width 312px
+		margin 0 auto
+	&-title
+		font-size: 20px
+		font-weight: bold
+		text-transform uppercase
+		text-align center
+		padding 10px 40px
+		background-image: url(../img/images/title-2.png)
+		background-repeat no-repeat
+		background-position: center
+		background-size: 100% 100%
+		position absolute
+		left 0
+		right 0
+		top 155px
+		color #fff
+		display inline-block
+		width 100%
+		max-width 312px
+		margin 0 auto
+	&-list
+		li
+			list-style: none
+			padding-left: 25px
+			margin-bottom 25px
+			position relative
+			&:last-child
+				margin-bottom 0
+			&:before
+				content: ''
+				display block
+				position absolute
+				width 12px
+				height: 12px
+				border-radius: 50px
+				background-color #0f1f2f
+				top 8px
+				left 0
+			@media screen and (max-width 560px)
+				margin-bottom 15px
